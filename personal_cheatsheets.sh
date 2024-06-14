@@ -9,10 +9,10 @@ mkdir -p "$PERSONAL_CHEAT_DIR"
 # Define the cheat sheets in an associative array
 declare -A CHEAT_SHEETS
 CHEAT_SHEETS=(
-    ["copy"]="To copy use: cp"
-    ["move"]="To move use: mv"
-    ["remove"]="To remove use: rm"
-    ["list"]="To list files use: ls"
+    #["copy"]="To copy use: cp"
+    #["move"]="To move use: mv"
+    #["remove"]="To remove use: rm"
+    #["list"]="To list files use: ls"
     ["custom"]="cd & ls: cdls = cd .. && ls \n verbose copy: cpv \n count = ls * | wc -l \n suno = sudo nano , n = nano , c = clear \n find sting in files = fstr <string> \n sudo last cmd = s \n easy extract = extract <file> "
     ["md5"]="Calculate MD5 checksum of a file: md5sum file.txt \n
 Verify MD5 checksums from a file: md5sum -c checksums.txt \n
