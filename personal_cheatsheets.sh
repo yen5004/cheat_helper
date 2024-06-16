@@ -15,22 +15,22 @@ CHEAT_SHEETS=(
     #["remove"]="To remove use: rm"
     #["list"]="To list files use: ls"
     ["custom"]="cd & ls: cdls = cd .. && ls \n verbose copy: cpv \n count = ls * | wc -l \n suno = sudo nano , n = nano , c = clear \n find sting in files = fstr <string> \n sudo last cmd = s \n easy extract = extract <file> "
-    ["md5"]="Calculate MD5 checksum of a file: md5sum file.txt \n
-Verify MD5 checksums from a file: md5sum -c checksums.txt \n
+    ["md5"]="# Calculate MD5 checksum of a file: \n md5sum file.txt \n
+# Verify MD5 checksums from a file: md5sum -c checksums.txt \n
 \n
-Calculate MD5 checksums for multiple files: md5sum file1.txt file2.txt file3.txt
+# Calculate MD5 checksums for multiple files: \n md5sum file1.txt file2.txt file3.txt
 \n
-Calculate MD5 checksum for a binary file: md5sum -b binaryfile.bin
+ # Calculate MD5 checksum for a binary file: \n md5sum -b binaryfile.bin
 \n
-Calculate MD5 checksum of a string (input from echo): echo -n "Hello, world!" | md5sum
+# Calculate MD5 checksum of a string (input from echo): \n echo -n "Hello, world!" | md5sum
 \n
-Calculate MD5 checksum of a string (input from a variable): my_string="This is a test string"
+# Calculate MD5 checksum of a string (input from a variable): \n my_string="This is a test string" \n 
 echo -n "$my_string" | md5sum
 \n
-Calculate MD5 checksum of a string (input from a file): echo -n "My secret password" > secret.txt
+# Calculate MD5 checksum of a string (input from a file): \n echo -n "My secret password" > secret.txt \n 
 md5sum secret.txt
 \n
-Calculate MD5 checksum of a string and output in binary mode: 
+# Calculate MD5 checksum of a string and output in binary mode:  \n 
 echo -n "Binary data" | md5sum -b
 "
 
