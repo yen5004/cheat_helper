@@ -7,6 +7,7 @@ PERSONAL_CHEAT_DIR=~/.config/cheat/cheatsheets/personal
 mkdir -p "$PERSONAL_CHEAT_DIR"
 
 # Define the cheat sheets in an associative array
+#just a test 2140
 declare -A CHEAT_SHEETS
 CHEAT_SHEETS=(
     #["copy"]="To copy use: cp"
