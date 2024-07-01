@@ -2,6 +2,8 @@
 # Use this script to get personal cheat files into the personal cheat folder
 # personal cheat files can come from the repo
 
+######___This is under construction, not ready to be be used___######
+
 # Define variables
 #CHEAT_REPO_DIR=~/cheat_helper/cheatsheets/personal
 CHEAT_REPO_DIR=~/cheat_helper/personal_cheatsheets
