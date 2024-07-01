@@ -1,3 +1,5 @@
+# Basic install script from the cheat repo
+
 cd /tmp \
   && wget https://github.com/cheat/cheat/releases/download/4.4.2/cheat-linux-amd64.gz \
   && gunzip cheat-linux-amd64.gz \
